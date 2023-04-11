@@ -1,0 +1,27 @@
+@media (max-width: 1023px) {
+  .second-main {
+    flex-direction: column;
+  }
+  .img-text {
+    width: 85vw;
+  }
+  .img-phone {
+    width: 85vw;
+  }
+  .img-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .menu ul {
+    flex-direction: column;
+    position: absolute;
+    left: -100vw;
+  }
+  .burger-menu-box {
+    display: block !important;
+  }
+  .toogle {
+    left: 0px !important;
+  }
+}

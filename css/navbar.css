@@ -1,0 +1,21 @@
+header {
+  position: relative;
+}
+header .burger-menu-box {
+  background-color: orange;
+  width: 10vw;
+  display: none;
+}
+header img {
+  width: 100%;
+}
+
+.menu ul {
+  color: gray;
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.menu ul a {
+  text-decoration: none;
+}/*# sourceMappingURL=navbar.css.map */

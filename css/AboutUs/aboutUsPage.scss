@@ -1,0 +1,25 @@
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.main {
+  display: flex;
+}
+.color-text {
+  color: $pink-text-color;
+}
+.main-text {
+  font-size: 3.5rem;
+  margin-top: 100px;
+}
+.main-logo {
+  display: flex;
+  width: 133px;
+  height: 40px;
+}
+.main-subtitle {
+  color: $black-text-color;
+}
+.rate {
+  margin-top: 100px;
+}

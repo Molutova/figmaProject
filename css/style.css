@@ -1,0 +1,135 @@
+header {
+  position: relative;
+}
+header .burger-menu-box {
+  background-color: orange;
+  width: 10vw;
+  display: none;
+}
+header img {
+  width: 100%;
+}
+
+.menu ul {
+  color: gray;
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.menu ul a {
+  text-decoration: none;
+}
+
+@media (max-width: 1023px) {
+  .second-main {
+    flex-direction: column;
+  }
+  .img-text {
+    width: 85vw;
+  }
+  .img-phone {
+    width: 85vw;
+  }
+  .img-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .menu ul {
+    flex-direction: column;
+    position: absolute;
+    left: -100vw;
+  }
+  .burger-menu-box {
+    display: block !important;
+  }
+  .toogle {
+    left: 0px !important;
+  }
+}
+body {
+  font-family: "Raleway";
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+}
+
+.color-text {
+  color: #e83a64;
+}
+
+.main-text {
+  font-size: 3.5rem;
+  margin-top: 100px;
+}
+
+.main-logo {
+  display: flex;
+  width: 133px;
+  height: 40px;
+}
+
+.main-subtitle {
+  color: #17181b;
+}
+
+.rate {
+  margin-top: 100px;
+}
+
+.second-main {
+  margin-top: 20px;
+}
+
+.second-main-wrapper {
+  display: flex;
+}
+
+.second-main-text {
+  font-size: 3.5rem;
+}
+
+.second-color-text {
+  color: #646572;
+}
+
+.third-main-wrapper {
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.third-main {
+  display: flex;
+}
+.monik-text {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  margin-left: 110px;
+}
+
+button {
+  border: none;
+  color: #f18c53;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.phone-img {
+  justify-content: center;
+  width: 50vw;
+  height: 50vw;
+  background: url(../../img/phone.png) no-repeat;
+}

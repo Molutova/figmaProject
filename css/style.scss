@@ -1,0 +1,43 @@
+@import "./navbar.scss", "./stylemobile.scss", "./secondMain.scss",
+  "./AboutUs/aboutUsPage.scss";
+
+$red: red;
+$buttom-color: #f18c53;
+$pink-text-color: #e83a64;
+$gray-text-color: #646572;
+$black-text-color: #17181b;
+
+body {
+  font-family: "Raleway";
+}
+.third-main {
+  display: flex;
+}
+.third-main-wrapper {
+  text-align: center;
+  justify-content: center;
+}
+.monik-text {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  margin-left: 110px;
+}
+button {
+  border: none;
+  color: $buttom-color;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.phone-img {
+  justify-content: center;
+  width: 50vw;
+  height: 50vw;
+  background: url(../../img/phone.png) no-repeat;
+}
