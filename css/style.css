@@ -47,9 +47,18 @@ header img {
     left: 0px !important;
   }
 }
-body {
-  font-family: "Raleway";
-  padding: 3vw;
+.second-main {
+  display: flex;
+  margin-top: 60px;
+}
+
+.second-main-text {
+  font-size: 3.5rem;
+  margin-top: 100px;
+}
+
+.second-color-text {
+  color: #646572;
 }
 
 .header-logo {
@@ -84,35 +93,9 @@ body {
   margin-top: 100px;
 }
 
-.second-main {
-  margin-top: 20px;
-}
-
-.second-main-wrapper {
-  display: flex;
-}
-
-.second-main-text {
-  font-size: 3.5rem;
-}
-
-.second-color-text {
-  color: #646572;
-}
-
-.third-main-wrapper {
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.third-main {
-  display: flex;
-}
-.monik-text {
-  margin-top: 50px;
-  display: flex;
-  text-align: center;
-  margin-left: 110px;
+body {
+  font-family: "Raleway";
+  padding: 2vw;
 }
 
 button {
@@ -133,4 +116,4 @@ button {
   width: 50vw;
   height: 50vw;
   background: url(../../img/phone.png) no-repeat;
-}
+}/*# sourceMappingURL=style.css.map */

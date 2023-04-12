@@ -2,24 +2,30 @@
   display: flex;
   align-items: center;
 }
+
 .main {
   display: flex;
 }
+
 .color-text {
   color: #e83a64;
 }
+
 .main-text {
   font-size: 3.5rem;
   margin-top: 100px;
 }
+
 .main-logo {
   display: flex;
   width: 133px;
   height: 40px;
 }
+
 .main-subtitle {
   color: #17181b;
 }
+
 .rate {
   margin-top: 100px;
-}
+}/*# sourceMappingURL=aboutUsPage.css.map */
