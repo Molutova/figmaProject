@@ -2,16 +2,20 @@
   .second-main {
     flex-direction: column;
   }
+  .main-logo {
+    display: flex;
+    align-items: center;
+  }
   .img-text {
     width: 85vw;
   }
   .img-phone {
-    width: 85vw;
+    width: 700px;
   }
   .img-text {
     display: flex;
-    align-items: center;
     text-align: center;
+    flex-direction: column;
   }
   .menu ul {
     flex-direction: column;
@@ -23,5 +27,65 @@
   }
   .toogle {
     left: 0px !important;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-magazine {
+    width: 700px;
+  }
+  .rate {
+    display: none;
+  }
+  .second-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-solutions-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-solutions {
+    margin-top: 40px;
+  }
+  .img-phone {
+    width: 700px;
+  }
+  .four-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .customer-txt {
+    display: none;
+  }
+  .navigation-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .talk-button {
+    text-align: center;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seven-main-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .book-button {
+    display: inherit;
   }
 }

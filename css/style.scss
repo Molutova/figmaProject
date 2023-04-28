@@ -5,22 +5,207 @@ body {
   font-family: "Raleway";
   padding: 2vw;
 }
-
-button {
-  border: none;
+.container {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.pink-color-text {
   color: #f18c53;
-  padding: 16px 32px;
+}
+
+// 3 block
+.our-solutions-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-solutions-text {
+  display: block;
+  text-align: center;
+}
+.img-solutions {
+  flex-direction: column;
+}
+.my-button {
+  background-image: linear-gradient(
+    90deg,
+    rgba(241, 140, 83, 1) 20%,
+    rgba(232, 58, 100, 1) 100%
+  );
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+  border-radius: 10px;
+  width: 254px;
+  height: 56px;
+  margin-left: 100px;
 }
-.phone-img {
+
+.my-button:hover {
+  cursor: pointer;
+  background-color: #3e8e41;
+}
+
+.my-button:active {
+  background-color: #367c39;
+}
+.background-photo {
+  display: flex;
+  margin-top: -473px;
+  justify-content: flex-end;
+}
+
+// 4 block
+.four-main-container {
+  display: flex;
+  margin-top: 120px;
+}
+.features ul {
+  list-style-image: url("../img/Right.svg");
+}
+.features li {
+  margin-top: 20px;
+}
+// 5 block
+.customer-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.customer-container {
+  display: flex;
+}
+.customer-txt1 {
+  padding: 3vw;
+  background-color: #f9fafb;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+.customer-txt {
+  padding: 3vw;
+  background-color: #f9fafb;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+// 6 block
+.navigation-main {
+  text-align: center;
+  margin-top: 100px;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-text {
+  text-align: inherit;
+}
+.talk-button {
+  background-image: linear-gradient(
+    90deg,
+    rgba(241, 140, 83, 1) 20%,
+    rgba(232, 58, 100, 1) 100%
+  );
+
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  align-items: center;
   justify-content: center;
-  width: 50vw;
-  height: 50vw;
-  background: url(../../img/phone.png) no-repeat;
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+  border-radius: 15px;
+  width: 150px;
+  height: 20px;
+  margin-left: 550px;
+  margin-top: 15px;
+}
+// 7 block
+.seven-main-container {
+  display: flex;
+  margin-top: 30px;
+}
+.seven-text {
+  margin-right: 100px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+}
+.book-button {
+  background-image: linear-gradient(
+    90deg,
+    rgba(241, 140, 83, 1) 20%,
+    rgba(232, 58, 100, 1) 100%
+  );
+
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+  border-radius: 15px;
+  width: 150px;
+  height: 20px;
+  margin-left: 550px;
+  margin-top: 35px;
+}
+// 8 block
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.customer-button {
+  margin-left: 315px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(241, 140, 83, 1) 20%,
+    rgba(232, 58, 100, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 0 20px;
+  border-radius: 15px;
+}
+
+.footer-container {
+  margin-top: 40px;
+}
+.contact {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer {
+  color: #ffffff;
+  background-color: #17181b;
+}
+.support-txt {
+  margin-top: 64px;
+  margin-left: 100px;
+}
+.sub-text {
+  margin-top: 44px;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-wrp {
+  display: flex;
+  flex-direction: row;
+}
+.img-customer-wrapper {
+  display: flex;
+  flex-direction: column;
 }

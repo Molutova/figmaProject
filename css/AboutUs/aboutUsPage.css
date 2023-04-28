@@ -3,11 +3,11 @@
   align-items: center;
 }
 
-.main {
+.main-container {
   display: flex;
 }
 
-.color-text {
+.pink-color-text {
   color: #e83a64;
 }
 

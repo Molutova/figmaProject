@@ -1,11 +1,20 @@
-.second-main {
+.second-main-container {
   display: flex;
   margin-top: 60px;
 }
 .second-main-text {
   font-size: 3.5rem;
   margin-top: 100px;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
-.second-color-text {
+.gray-color-text {
   color: #646572;
+}
+.second-subtitle {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.img-magazine {
+  max-width: 100%;
 }
